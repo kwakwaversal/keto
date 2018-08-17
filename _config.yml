@@ -1,1 +1,27 @@
+# This blog is written using Jekyll (https://jekyllrb.com/)
+#
+# Useful links:
+#   Directory structure - https://jekyllrb.com/docs/structure/
+#   Writing posts - https://jekyllrb.com/docs/posts/
+
+title: Ketogenic recipes and useful information
+description: For all things keto
+
+# https://github.com/pages-themes/tactile
+# https://pages-themes.github.io/tactile/
 theme: jekyll-theme-tactile
+
+github: [metadata]
+
+# https://github.com/wildlyinaccurate/jekyll-responsive-image
+# plugin not supported on gh-pages
+#
+# gem "jekyll-responsive-image", group: :jekyll_plugins
+#
+# plugins:
+#   - jekyll-responsive-image
+#
+# responsive_image:
+#   template: _includes/responsive-image.html
+#   sizes:
+#     - width: 800

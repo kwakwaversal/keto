@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
+## Ketogenic recipes and useful information
 
-You can use the [editor on GitHub](https://github.com/kwakwaversal/keto/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+These pages are a work in progress. They were originally started to keep track
+of recipes that me and my wife use for our Daughter who is on the ketogenic
+diet.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+In some cases, the recipes are tweaked from original recipes found elsewhere
+to take advantage of ingredients that are more readily available or are more
+to our Daughter's palate.
 
-### Markdown
+### Recipes
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<dl class="posts">
+  {% for post in site.posts %}
+    <dt>
+		<a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a> {{ post.date | date: "%b %-d, %Y" }}
+    </dt>
+<br/>
+  {% endfor %}
+</dl>
 
-```markdown
-Syntax highlighted code block
+## Useful links
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kwakwaversal/keto/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+* [Headbanger's Kitchen](https://headbangerskitchen.com/)
